@@ -1,12 +1,17 @@
 import React from 'react';
 import './Home.css';
+import HeadlinePic from '../../assets/HeadlineImage.png'; // Importing the image
 
 function Home() {
   return (
-    <div className="Home">
-      <h1>Headline</h1>
-      {/* Replace 'path_to_your_image.jpg' with the actual path */}
-      <img src="path_to_your_image.jpg" alt="Your Portrait" />
+    <div className='home__container'>
+      <div className="home__headline">
+        <h1>This is my headline</h1>
+        <h2>But this is my sub-headline. What do you think about it?</h2>
+      </div>
+      <div className="home__image-container">
+        <img className="home__image" src={HeadlinePic} alt="Your Portrait" />
+      </div>
     </div>
   );
 }
