@@ -1,6 +1,36 @@
 import React from 'react';
 import './Projects.css';
-import Image from '../../assets/image.jpg'
+import Image from '../../assets/image.jpg';
+
+
+// Example project data
+const projectsData = [
+  {
+    name: 'Project 1',
+    description: 'Description for Project 1',
+    image: Image // Update the path to your image
+  },
+  {
+    name: 'Project 2',
+    description: 'Description for Project 2',
+    image: Image 
+  },
+  {
+    name: 'Project 2',
+    description: 'Description for Project 2',
+    image: Image 
+  },
+  {
+    name: 'Project 2',
+    description: 'Description for Project 2',
+    image: Image 
+  },
+  {
+    name: 'Project 2',
+    description: 'Description for Project 2',
+    image: Image 
+  },
+];
 
 function Projects() {
   return (
@@ -16,62 +46,16 @@ function Projects() {
         </div>
       </div>
       <div className='projects'>
-        <div className='project_item' style={{ backgroundImage: `url(${Image})` }}>
-          <div className='project__title'>
-            Projects 1
-          </div>
-          <div className='project__description'>
-            Description for Project 1
-          </div>
-        </div>
-        <div className='project_item'>
-          <div className='project__title'>
-            Projects 2
-          </div>
-          <div className='project__description'>
-            Description for Project 2
-          </div>
-        </div>
-        <div className='project_item'>
-          <div className='project__title'>
-            Projects 3
-          </div>
-          <div className='project__description'>
-            Description for Project 3
-          </div>
-        </div>
-        <div className='project_item'>
-          <div className='project__title'>
-            Projects 3
-          </div>
-          <div className='project__description'>
-            Description for Project 3
-          </div>
-        </div>
-        <div className='project_item'>
-          <div className='project__title'>
-            Projects 3
-          </div>
-          <div className='project__description'>
-            Description for Project 3
-          </div>
-        </div>
-        <div className='project_item'>
-          <div className='project__title'>
-            Projects 3
-          </div>
-          <div className='project__description'>
-            Description for Project 3
-          </div>
-        </div>
-                <div className='project_item'>
-          <div className='project__title'>
-            Projects 3
-          </div>
-          <div className='project__description'>
-            Description for Project 3
-          </div>
-        </div>
+        {projectsData.map((project, index) => (
+          <a href='#'
+            key={index}
+            className='project_item' 
+            style={{ backgroundImage: `url(${project.image})` }}
+          >
+            <div className='project__title'>{project.name}</div>
+            <div className='project__description'>{project.description}</div>
+          </a>
+        ))}
       </div>
     </div>
   );

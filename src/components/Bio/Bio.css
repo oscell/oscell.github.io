@@ -1,0 +1,14 @@
+.Bio {
+    display: flex;
+    max-width: 1100px;
+    flex-direction: column;
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center text within each child */
+    margin: 0 auto; /* Center the .Bio container itself */
+    background-color: #f5f5f5;
+}
+
+.Bio > * {
+    width: 100%; /* Make each child take full width of the container */
+}
