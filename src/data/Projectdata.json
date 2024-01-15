@@ -1,13 +1,16 @@
 [
     {
         "id": "1",
-        "name": "Project 1",
+        "name": "SymbioticRobots: Mixed Reality & Digital Twin for Remote Operations",
         "description": "Description for Project 1",
         "objectives": "Objectives for Project 1",
         "outcomes": "Outcomes & Contributions for Project 1",
         "technicalDetails": "Technical Details for Project 1",
-        "image": "/projectImages/image.jpg",
-        "url": "https://github.com/oscell/SymbioticRobots"
+        "image": "/projectImages/Unity_scene_pointcloud_Square.png",
+        "url": "https://github.com/oscell/SymbioticRobots",
+        "categories":["Robotics","Simulation"],
+        "Skills":["C++","Python","ROS"],
+        "Markdown":""
     },
     {
         "id": "2",
