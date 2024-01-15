@@ -8,27 +8,15 @@ const projectsData = [
   {
     name: 'Project 1',
     description: 'Description for Project 1',
-    image: Image // Update the path to your image
+    image: Image,
+    url: 'https://github.com/oscell/SymbioticRobots'
   },
   {
     name: 'Project 2',
     description: 'Description for Project 2',
-    image: Image 
-  },
-  {
-    name: 'Project 2',
-    description: 'Description for Project 2',
-    image: Image 
-  },
-  {
-    name: 'Project 2',
-    description: 'Description for Project 2',
-    image: Image 
-  },
-  {
-    name: 'Project 2',
-    description: 'Description for Project 2',
-    image: Image 
+    image: Image,
+    url: 'https://github.com/oscell/SymbioticRobots'
+
   },
 ];
 
@@ -47,7 +35,7 @@ function Projects() {
       </div>
       <div className='projects'>
         {projectsData.map((project, index) => (
-          <a href='#'
+          <a href={project.url}
             key={index}
             className='project_item' 
             style={{ backgroundImage: `url(${project.image})` }}
