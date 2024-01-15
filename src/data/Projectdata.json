@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "name": "Project 1",
+        "description": "Description for Project 1",
+        "objectives": "Objectives for Project 1",
+        "outcomes": "Outcomes & Contributions for Project 1",
+        "technicalDetails": "Technical Details for Project 1",
+        "image": "/projectImages/image.jpg",
+        "url": "https://github.com/oscell/SymbioticRobots"
+    },
+    {
+        "id": "2",
+        "name": "Project 2",
+        "description": "Description for Project 2",
+        "objectives": "Objectives for Project 2",
+        "outcomes": "Outcomes & Contributions for Project 2",
+        "technicalDetails": "Technical Details for Project 2",
+        "image": "/projectImages/image.jpg",
+        "url": "https://github.com/oscell/SymbioticRobots"
+    }
+]

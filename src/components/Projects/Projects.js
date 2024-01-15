@@ -1,24 +1,8 @@
 import React from 'react';
 import './Projects.css';
-import Image from '../../assets/image.jpg';
+import { Link } from 'react-router-dom';
+import Data from '../../data/Projectdata.json';
 
-
-// Example project data
-const projectsData = [
-  {
-    name: 'Project 1',
-    description: 'Description for Project 1',
-    image: Image,
-    url: 'https://github.com/oscell/SymbioticRobots'
-  },
-  {
-    name: 'Project 2',
-    description: 'Description for Project 2',
-    image: Image,
-    url: 'https://github.com/oscell/SymbioticRobots'
-
-  },
-];
 
 function Projects() {
   return (
@@ -34,15 +18,11 @@ function Projects() {
         </div>
       </div>
       <div className='projects'>
-        {projectsData.map((project, index) => (
-          <a href={project.url}
-            key={index}
-            className='project_item' 
-            style={{ backgroundImage: `url(${project.image})` }}
-          >
+        {Data.map((project, index) => (
+          <Link to={`/projects/${index}`} key={index} className='project_item' style={{ backgroundImage: `url(${project.image})` }}>
             <div className='project__title'>{project.name}</div>
             <div className='project__description'>{project.description}</div>
-          </a>
+          </Link>
         ))}
       </div>
     </div>
