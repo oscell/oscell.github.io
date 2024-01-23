@@ -5,8 +5,8 @@
         "objectives": "As part of my Masters dissertation, the goal was to **enable remote operations and maintenance** in challenging environments like offshore wind farms and nuclear facilities, utilizing **Mixed Reality (MR)** and **Digital Twin (DT)** technologies. It integrated a **sensor-equipped Unmanned Ground Vehicle (UGV)**, **HoloLens 2**, and **virtual models** for **visualization and control** in a **mixed reality environment**.",
         "outcomes": "- **Proof-of-Concept System**: The project demonstrates the integration of MR and DT technologies to manage remote operations.\n- **Advanced Visualization & Control**: The use of Mixed Reality through the HoloLens device enhanced the visualization capabilities.",
         "technicalDetails": "The project focuses on utilizing MR and DT technologies, with Unity 3D for implementing DT models and C# for programming. It integrates a UGV, sensors, and HoloLens 2 within a Unity 3D environment, using ROS middleware for communication and control. A SLAM algorithm is employed for mapping facilities, and a stereoscopic camera provides real-time visuals in a virtual environment. The project also involves programming interfaces for industrial applications to enhance human-machine interaction.",
-        "project_thumbnail": "/projectImages/Unity_scene_pointcloud_Square.png",
-        "project_image": "/projectImages/Unity_scene_pointcloud_Square.png",
+        "project_thumbnail": "/projectImages/SymbioticRobots/Unity_scene_pointcloud_Square.png",
+        "project_image": "/projectImages/SybmioticRobots/Unity_scene_pointcloud_Square.png",
         "categories":["Robotics","Simulation","Mixed Reality"],
         "Skills":["C#","Python","ROS","Unity","C#","CMake","Git","Linux","Mixed Reality","Project Planning"],
         "links":{
@@ -22,8 +22,8 @@
         "objectives": "As part of my Masters dissertation, the goal was to **enable remote operations and maintenance** in challenging environments like offshore wind farms and nuclear facilities, utilizing **Mixed Reality (MR)** and **Digital Twin (DT)** technologies. It integrated a **sensor-equipped Unmanned Ground Vehicle (UGV)**, **HoloLens 2**, and **virtual models** for **visualization and control** in a **mixed reality environment**.",
         "outcomes": "- **Proof-of-Concept System**: The project demonstrates the integration of MR and DT technologies to manage remote operations.\n- **Advanced Visualization & Control**: The use of Mixed Reality through the HoloLens device enhanced the visualization capabilities.",
         "technicalDetails": "The project focuses on utilizing MR and DT technologies, with Unity 3D for implementing DT models and C# for programming. It integrates a UGV, sensors, and HoloLens 2 within a Unity 3D environment, using ROS middleware for communication and control. A SLAM algorithm is employed for mapping facilities, and a stereoscopic camera provides real-time visuals in a virtual environment. The project also involves programming interfaces for industrial applications to enhance human-machine interaction.",
-        "project_thumbnail": "/projectImages/TrackRecord_thumbnail.png",
-        "project_image": "/projectImages/TrackRecord.png",
+        "project_thumbnail": "/projectImages/TrackRecord/TrackRecord_thumbnail.png",
+        "project_image": "/projectImages/TrackRecord/TrackRecord.png",
         "categories":["Robotics","Simulation","Mixed Reality"],
         "Skills":["C#","Python","ROS","Unity","C#","CMake","Git","Linux","Mixed Reality","Project Planning"],
         "links":{
