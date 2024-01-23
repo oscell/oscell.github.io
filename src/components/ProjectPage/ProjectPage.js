@@ -27,7 +27,7 @@ function ProjectPage() {
                     <h2>Outcomes</h2>
                     <ReactMarkdown>{project.outcomes}</ReactMarkdown>
 
-
+                    <h2>Technical Details</h2>
                     <ReactMarkdown>{project.technicalDetails}</ReactMarkdown>
                 </div>
                 <div className='project-image'>

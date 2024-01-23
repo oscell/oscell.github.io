@@ -1,14 +1,14 @@
 [
     {
         "id": "1",
-        "title": "SymbioticRobots: Mixed Reality & Digital Twin for Remote Operations",
+        "title": "SymbioticRobots: Mixed Reality for Remote Operations",
         "objectives": "As part of my Masters dissertation, the goal was to **enable remote operations and maintenance** in challenging environments like offshore wind farms and nuclear facilities, utilizing **Mixed Reality (MR)** and **Digital Twin (DT)** technologies. It integrated a **sensor-equipped Unmanned Ground Vehicle (UGV)**, **HoloLens 2**, and **virtual models** for **visualization and control** in a **mixed reality environment**.",
         "outcomes": "- **Proof-of-Concept System**: The project demonstrates the integration of MR and DT technologies to manage remote operations.\n- **Advanced Visualization & Control**: The use of Mixed Reality through the HoloLens device enhanced the visualization capabilities.",
         "technicalDetails": "The project focuses on utilizing MR and DT technologies, with Unity 3D for implementing DT models and C# for programming. It integrates a UGV, sensors, and HoloLens 2 within a Unity 3D environment, using ROS middleware for communication and control. A SLAM algorithm is employed for mapping facilities, and a stereoscopic camera provides real-time visuals in a virtual environment. The project also involves programming interfaces for industrial applications to enhance human-machine interaction.",
         "project_thumbnail": "/projectImages/SymbioticRobots/Unity_scene_pointcloud_Square.png",
         "project_image": "/projectImages/SybmioticRobots/Unity_scene_pointcloud_Square.png",
         "categories":["Robotics","Simulation","Mixed Reality"],
-        "Skills":["C#","Python","ROS","Unity","C#","CMake","Git","Linux","Mixed Reality","Project Planning"],
+        "Skills":["C#","Python","ROS","Unity","C#","CMake","GitHub","Linux","Mixed Reality","Project Planning"],
         "links":{
             "github":"https://github.com/oscell/SymbioticRobots/tree/main",
             "youtube":"https://youtu.be/OVepy4K4ag0?si=QkeTbYrNz_GrUCbJ",
@@ -18,14 +18,14 @@
     },
     {
         "id": "2",
-        "title": "SymbioticRobots: Mixed Reality & Digital Twin for Remote Operations",
-        "objectives": "As part of my Masters dissertation, the goal was to **enable remote operations and maintenance** in challenging environments like offshore wind farms and nuclear facilities, utilizing **Mixed Reality (MR)** and **Digital Twin (DT)** technologies. It integrated a **sensor-equipped Unmanned Ground Vehicle (UGV)**, **HoloLens 2**, and **virtual models** for **visualization and control** in a **mixed reality environment**.",
-        "outcomes": "- **Proof-of-Concept System**: The project demonstrates the integration of MR and DT technologies to manage remote operations.\n- **Advanced Visualization & Control**: The use of Mixed Reality through the HoloLens device enhanced the visualization capabilities.",
-        "technicalDetails": "The project focuses on utilizing MR and DT technologies, with Unity 3D for implementing DT models and C# for programming. It integrates a UGV, sensors, and HoloLens 2 within a Unity 3D environment, using ROS middleware for communication and control. A SLAM algorithm is employed for mapping facilities, and a stereoscopic camera provides real-time visuals in a virtual environment. The project also involves programming interfaces for industrial applications to enhance human-machine interaction.",
+        "title": "Track-Record: Real-Time Face Tracking",
+        "objectives": "The Track-Record project focuses on the development of a real-time face tracking system using a Raspberry Pi platform. The primary goal is to create a user-friendly, standalone product that can be easily utilized for face tracking purposes. This system is intended to be plug-and-play, simplifying the integration of face tracking technology to allow for more interactive presentations.",
+        "outcomes": "- **Real-Time Face Tracking System**: Successfully built on the Raspberry Pi 3B platform, integrating a Pi Camera Module and servo motors for dynamic face detection and tracking.\n- **User Interface Development**: A graphical user interface (GUI) has been implemented, which communicates with the Raspberry Pi server, enhancing user interaction and control over the face tracking system.\n- **Standalone and User-Friendly**: The system is designed to be plug-and-play, offering ease of use and accessibility to users without extensive technical backgrounds.",
+        "technicalDetails": "- **Hardware Components**: The system comprises a Raspberry Pi 3B, a 16GB SD card, Pi Camera Module 2, SG92R Servo, and other electronic components.\n- **Software and Libraries**: Utilizing CMake, OpenCV, BCM2835, and QT5 libraries.\n- **3D Printing**: Designing and 3D printing parts using SolidWorks.",
         "project_thumbnail": "/projectImages/TrackRecord/TrackRecord_thumbnail.png",
         "project_image": "/projectImages/TrackRecord/TrackRecord.png",
-        "categories":["Robotics","Simulation","Mixed Reality"],
-        "Skills":["C#","Python","ROS","Unity","C#","CMake","Git","Linux","Mixed Reality","Project Planning"],
+        "categories":["User Interface Design","Embedded Systems, Robotics","Computer Vision","Project Planning","Marketing", "Market Research"],
+        "Skills":["C++", "GitHub", "OpenCV", "Raspberry Pi", "Linux", "SOLIDWORKS"],
         "links":{
             "github":"https://github.com/oscell/Track-Record",
             "instagram":"https://www.instagram.com/tracknrecordteam/",
