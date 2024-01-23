@@ -42,6 +42,7 @@
 .project_item {
     margin: 10px;
     border: 1px solid black;
+    border-radius: 10px;
     padding: 60px 25px;
     background-size: cover;
     background-position: center;
@@ -65,3 +66,5 @@
 .project__title{
     font-weight: bold;
 }
+
+

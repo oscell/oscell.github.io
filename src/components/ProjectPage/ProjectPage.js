@@ -5,6 +5,7 @@ import './ProjectPage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
 import ReactMarkdown from 'react-markdown';
 
 
@@ -30,7 +31,7 @@ function ProjectPage() {
                     <ReactMarkdown>{project.technicalDetails}</ReactMarkdown>
                 </div>
                 <div className='project-image'>
-                    <img src={project.image} alt={project.name} />
+                    <img src={project.project_image} alt={project.name} />
                 </div>
             </div>
             <h2>Links</h2>
@@ -54,6 +55,9 @@ function ProjectPage() {
                 )}
                 {project.links.website && (
                     <p><a href={project.links.website} target='_blank' rel='noreferrer'>Website</a></p>
+                )}
+                {project.links.instagram && (
+                 <p><a href={project.links.instagram} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faSquareInstagram} style={{ color: '#ee4963' }} /> Instagram</a></p>   
                 )}
             </div>
         </div>
