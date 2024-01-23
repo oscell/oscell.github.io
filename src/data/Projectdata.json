@@ -1,25 +1,19 @@
 [
     {
         "id": "1",
-        "name": "SymbioticRobots: Mixed Reality & Digital Twin for Remote Operations",
-        "description": "Description for Project 1",
-        "objectives": "Objectives for Project 1",
-        "outcomes": "Outcomes & Contributions for Project 1",
-        "technicalDetails": "Technical Details for Project 1",
+        "title": "SymbioticRobots: Mixed Reality & Digital Twin for Remote Operations",
+        "objectives": "As part of my Masters dissertation, the goal was to **enable remote operations and maintenance** in challenging environments like offshore wind farms and nuclear facilities, utilizing **Mixed Reality (MR)** and **Digital Twin (DT)** technologies. It integrated a **sensor-equipped Unmanned Ground Vehicle (UGV)**, **HoloLens 2**, and **virtual models** for **visualization and control** in a **mixed reality environment**.",
+        "outcomes": "- **Proof-of-Concept System**: The project demonstrates the integration of MR and DT technologies to manage remote operations.\n- **Advanced Visualization & Control**: The use of Mixed Reality through the HoloLens device enhanced the visualization capabilities.",
+        "technicalDetails": "The project focuses on utilizing MR and DT technologies, with Unity 3D for implementing DT models and C# for programming. It integrates a UGV, sensors, and HoloLens 2 within a Unity 3D environment, using ROS middleware for communication and control. A SLAM algorithm is employed for mapping facilities, and a stereoscopic camera provides real-time visuals in a virtual environment. The project also involves programming interfaces for industrial applications to enhance human-machine interaction.",
         "image": "/projectImages/Unity_scene_pointcloud_Square.png",
-        "url": "https://github.com/oscell/SymbioticRobots",
-        "categories":["Robotics","Simulation"],
-        "Skills":["C++","Python","ROS"],
-        "Markdown":""
-    },
-    {
-        "id": "2",
-        "name": "Project 2",
-        "description": "Description for Project 2",
-        "objectives": "Objectives for Project 2",
-        "outcomes": "Outcomes & Contributions for Project 2",
-        "technicalDetails": "Technical Details for Project 2",
-        "image": "/projectImages/image.jpg",
-        "url": "https://github.com/oscell/SymbioticRobots"
+        "categories":["Robotics","Simulation","Mixed Reality"],
+        "Skills":["C#","Python","ROS","Unity","C#","CMake","Git","Linux","Mixed Reality","Project Planning"],
+        "links":{
+            "github":"https://github.com/oscell/SymbioticRobots/tree/main",
+            "youtube":"https://youtu.be/OVepy4K4ag0?si=QkeTbYrNz_GrUCbJ",
+            "website":"",
+            "liveDemo":""
+        }
     }
 ]
+

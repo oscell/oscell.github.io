@@ -21,7 +21,7 @@ function Projects() {
       <div className='projects'>
         {Data.map((project, index) => (
           <Link to={`/projects/${index}`} key={index} className='project_item' style={{ backgroundImage: `url(${project.image})` }}>
-            <div className='project__title'>{project.name}</div>
+            <div className='project__title'>{project.title}</div>
             <div className='project__description'>{project.description}</div>
           </Link>
         ))}
