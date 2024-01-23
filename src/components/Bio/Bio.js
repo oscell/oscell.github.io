@@ -1,8 +1,12 @@
 import React from 'react';
 import './Bio.css';
+import '../CommonStyles.css'; 
+
 
 function Bio() {
   return (
+    <div className='component__container'>
+
     <div className="Bio">
       <h2>About Me</h2>
       <p>
@@ -19,6 +23,7 @@ function Bio() {
         </div>
 
       </p>
+    </div>
     </div>
   );
 }

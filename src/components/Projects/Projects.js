@@ -2,10 +2,11 @@ import React from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
 import Data from '../../data/Projectdata.json';
-
+import '../CommonStyles.css'; 
 
 function Projects() {
   return (
+    <div className='component__container'>
     <div className='projects__container'>
       <div className="categories__container">
         <div className='projects__heading'>My Projects</div>
@@ -25,6 +26,7 @@ function Projects() {
           </Link>
         ))}
       </div>
+    </div>
     </div>
   );
 }

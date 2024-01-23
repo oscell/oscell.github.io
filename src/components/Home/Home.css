@@ -1,9 +1,7 @@
 /* Existing styles */
 .home__container {
   display: flex;
-  max-width: 1100px;
   margin: 0 auto;
-  background-color: #f5f5f5;
 }
 
 .left__container {

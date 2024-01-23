@@ -1,9 +1,13 @@
 import React from 'react';
 import './Home.css';
 import HeadlinePic from '../../assets/HeadlineImage.png'; // Importing the image
+import '../CommonStyles.css';
+
 
 function Home() {
   return (
+
+    <div className='component__container'>
     <div className='home__container'>
       <div className='left__container'>
       <div className="home__headline">
@@ -14,6 +18,7 @@ function Home() {
       <div className="home__image-container">
         <img className="home__image" src={HeadlinePic} alt="Your Portrait" />
       </div>
+    </div>
     </div>
   );
 }

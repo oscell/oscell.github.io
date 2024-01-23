@@ -6,8 +6,6 @@ function ProjectPage() {
     let { id } = useParams();
     const project = Data[id];
 
-    console.log(project.image); // Log the image URL
-
 
     return (
         <div>
