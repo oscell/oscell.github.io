@@ -31,7 +31,7 @@
 }
 
 .project-image img {
-    max-width: 400px; /* Fixed width */
+    max-width: 500px; /* Fixed width */
     height: auto; /* Height is set to auto to maintain aspect ratio */
     border-radius: 10px; /* Remove rounded corners */
     object-fit: cover; /* Ensures the image covers the area without being stretched */
@@ -84,3 +84,12 @@
     color: aliceblue;
 }
 
+/* Style for all unordered lists */
+.project-information ul {
+    list-style-type: square; /* change bullet style */
+
+  }
+
+  .project-information li {
+    margin-bottom: 20px; /* space between items */
+  }

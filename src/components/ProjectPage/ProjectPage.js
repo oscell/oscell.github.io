@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faDesktop } from '@fortawesome/free-solid-svg-icons';
 import ReactMarkdown from 'react-markdown';
 
 
@@ -44,7 +45,7 @@ function ProjectPage() {
                     </p>
                 )}
                 {project.links.liveDemo && (
-                    <p><a href={project.links.liveDemo} target='_blank' rel='noreferrer'>Live Demo</a></p>
+                    <p><a href={project.links.liveDemo} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faDesktop} /> Live Demo</a></p>
                 )}
                 {project.links.youtube && (
 
