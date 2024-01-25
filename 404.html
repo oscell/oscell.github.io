@@ -4,10 +4,9 @@
   
     <script type="text/javascript">
       document.addEventListener('DOMContentLoaded', function() {
-        // Use document.referrer to get the URL the user is coming from
-        var path = document.location.pathname + document.location.search;
-        sessionStorage.redirect = path;
-        window.location.href = '/'; // Redirect to the home page
+        var path = document.location.pathname;
+        sessionStorage.redirect = path.replace('/project-name', ''); // Ensure this matches the base path of your GitHub Pages site
+        window.location.href = '/project-name/'; // Redirect to the base path of your GitHub Pages site
       });
     </script>
     
