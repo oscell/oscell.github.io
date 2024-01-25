@@ -67,7 +67,7 @@
         "Skills": ["React", "HTML", "CSS", "JavaScript", "Algolia", "Data Manipulation", "UI/UX Design"],
         "links": {
           "github": "https://github.com/oscell/Restaurant-Search",
-          "liveDemo": "https://oscell.github.io/Algolia-Assignment-Restaurants"
+          "liveDemo": "https://oscell.github.io/Restaurant-Search/"
         }
       }
       

@@ -30,7 +30,7 @@ function Bio() {
       </p>
     </div> */}
 
-      <div className="contact__container">
+      <div id="contact__container">
         <div className='contact__details'>
         <p>
           <div>

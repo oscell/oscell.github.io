@@ -12,7 +12,7 @@
     width: 100%; /* Make each child take full width of the container */
 }
 
-.contact__container {
+#contact__container {
     display: flex;
     flex-direction: row;
     justify-content: center;
