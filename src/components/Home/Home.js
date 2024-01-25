@@ -11,9 +11,15 @@ function Home() {
     <div className='home__container'>
       <div className='left__container'>
       <div className="home__headline">
-        <div className='headline'>This is my headline</div>
-        <div className='sub-headline'>But this is my sub-headline. What do you think about it? But this is my sub-headline. What do you think about it? But this is my sub-headline. What do you think about it? But this is my sub-headline. What do you think about it? </div>
+        <div className='headline'>Product Driven Developer</div>
+        <div className='sub-headline'><p>I have many skills but I have one goal.</p>Build build things that provide value.</div>
+
+
       </div>
+      <a href={`${process.env.PUBLIC_URL}/CV/CV_Oscar.pdf`} download="Oscar_CV.pdf" className='download-cv'>
+        Download CV
+        </a>
+
       </div>
       <div className="home__image-container">
         <img className="home__image" src={HeadlinePic} alt="Your Portrait" />

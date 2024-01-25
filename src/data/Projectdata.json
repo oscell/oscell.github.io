@@ -53,29 +53,13 @@
         }
     },
 
+
     {
         "id": "4",
-        "title": "Improving E-comer Website",
-        "objectives": "The RoboCup project aims to create a realistic MATLAB-based simulation of humanoid soccer using NAO6 robots. The main objective is to provide a detailed and accurate platform for strategizing and testing tactics in accordance with regulations of the RoboCup competition. This project includes ball dynamics, robot kinematics, game state analysis, and advanced path planning techniques.",
-        "outcomes": "- **Humanoid Soccer Simulation**: Developed a comprehensive simulation of humanoid soccer using NAO6 robots, focusing on realistic physical dynamics of the ball and robots.\n- **Advanced Strategy Testing**: Enabled testing and analysis of soccer strategies and tactics, including dribbling, passing, and shooting.\n- **Path Planning Techniques**: Incorporated path planning algorithms like RRT (Rapidly-exploring Random Tree) and Target-Interceptor.\n- **Decision-Making System**: Developed a State flow-based decision-making system to dictate robot roles and game dynamics, adhering to court boundaries and rules.\n- **Simulation Validation and Visualization**: Provided extensive validation of the simulation through metrics and visualization, offering insights into different strategies.",
-        "technicalDetails": "- **Simulation Platform**: The project uses MATLAB for simulating the RoboCup environment with NAO6 robots.\n- **Key Features**: The simulation includes ball dynamics, robot kinematics, actuators, sensing capabilities, game state determination, and role-based robot decision making.\n- **Visualization and Metrics**: Emphasis on visualization for system explainability and metrics for benchmarking and optimizing robot team performance.",
-        "project_thumbnail": "/projectImages/Robocup/Nao6.png",
-        "project_image": "/projectImages/Robocup/Nao6.png",
-        "categories":["Robotics","Simulation","Computer Vision"],
-        "Skills":["MATLAB", "ROS","Project Planning", "Project Management", "Leadership"],
-        "links":{
-            "github":"https://github.com/Neile0/guitarguitar",
-            "instagram":"",
-            "youtube":"",
-            "website":"",
-            "liveDemo":""
-        }
-    },
-    {
-        "id": "5",
         "title": "Algolia Search Integration for Restaurant Reservation Website",
         "objectives": "This project aimed to enhance the search experience on a restaurant reservation website by integrating Algolia's search service. Objectives included developing a responsive search UI with React, implementing as-you-type search functionality, custom filtering options for cuisine types, and prioritizing search results based on user location.",
         "outcomes": "- **Algolia Search with React**: Built a dynamic search interface using React, integrating Algolia's search API for real-time search capabilities.\n- **Custom Filtering & Geolocation**: Developed custom filters and geolocation to enhance search relevance.\n- **Data Manipulation and Indexing**: Processed and merged disparate datasets (JSON and CSV) for Algolia indexing, enabling comprehensive search functionalities.\n- **Responsive and User-Friendly Design**: Ensured a seamless user experience across various devices with a responsive design approach.",
+        "Embed": "",
         "technicalDetails": "- **React Framework**: Created an interactive user interface for the search functionality.\n- **Algolia JS Helper**: Integrated Algolia's JS Helper library for search features.\n- **Custom Components**: Created reusable React components for search results, filters, and other UI elements.\n- **Data Processing Scripts**: Developed scripts for merging and manipulating JSON and CSV data sources to create a unified Algolia search index.\n- **HTML5 Geolocation API**: Used the Geolocation API for detecting user location and customizing search results to show nearby restaurants first.",
         "project_thumbnail": "/projectImages/RestaurantSearch/mock-up.png",
         "project_image": "/projectImages/RestaurantSearch/mock-up.png",
@@ -88,4 +72,3 @@
       }
       
 ]
-

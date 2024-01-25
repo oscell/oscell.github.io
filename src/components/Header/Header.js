@@ -12,9 +12,9 @@ function Header() {
       <Link to="/" >
       <img src={profilePic} alt="Profile" className="ProfilePicture"  />
       </Link>
-      <button className="ContactButton">
+      <a className="ContactButton">
         Contact Me
-      </button>
+      </a>
     </div>
     </div>
     </div>

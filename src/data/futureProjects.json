@@ -1,0 +1,18 @@
+{
+    "id": "4",
+    "title": "Improving E-comer Website",
+    "objectives": "The RoboCup project aims to create a realistic MATLAB-based simulation of humanoid soccer using NAO6 robots. The main objective is to provide a detailed and accurate platform for strategizing and testing tactics in accordance with regulations of the RoboCup competition. This project includes ball dynamics, robot kinematics, game state analysis, and advanced path planning techniques.",
+    "outcomes": "- **Humanoid Soccer Simulation**: Developed a comprehensive simulation of humanoid soccer using NAO6 robots, focusing on realistic physical dynamics of the ball and robots.\n- **Advanced Strategy Testing**: Enabled testing and analysis of soccer strategies and tactics, including dribbling, passing, and shooting.\n- **Path Planning Techniques**: Incorporated path planning algorithms like RRT (Rapidly-exploring Random Tree) and Target-Interceptor.\n- **Decision-Making System**: Developed a State flow-based decision-making system to dictate robot roles and game dynamics, adhering to court boundaries and rules.\n- **Simulation Validation and Visualization**: Provided extensive validation of the simulation through metrics and visualization, offering insights into different strategies.",
+    "technicalDetails": "- **Simulation Platform**: The project uses MATLAB for simulating the RoboCup environment with NAO6 robots.\n- **Key Features**: The simulation includes ball dynamics, robot kinematics, actuators, sensing capabilities, game state determination, and role-based robot decision making.\n- **Visualization and Metrics**: Emphasis on visualization for system explainability and metrics for benchmarking and optimizing robot team performance.",
+    "project_thumbnail": "/projectImages/Interactive Guitar Website/poster.png",
+    "project_image": "/projectImages/Interactive Guitar Website/poster.png",
+    "categories":["Robotics","Simulation","Computer Vision"],
+    "Skills":["MATLAB", "ROS","Project Planning", "Project Management", "Leadership"],
+    "links":{
+        "github":"https://github.com/Neile0/guitarguitar",
+        "instagram":"",
+        "youtube":"",
+        "website":"",
+        "liveDemo":""
+    }
+}

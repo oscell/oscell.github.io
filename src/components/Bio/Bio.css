@@ -11,3 +11,46 @@
 .Bio > * {
     width: 100%; /* Make each child take full width of the container */
 }
+
+.contact__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact__details, .socials {
+    margin: 10px 100px;
+}
+.contact__details {
+    text-align: right;
+}
+
+.socials__container a {
+    font-size: 24px; /* Adjust the size as needed */
+    color: #000; /* Change the color as desired */
+    margin: 20px 10px; /* Add some space between the icons */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Style for hover effect to slightly enlarge the icons */
+.socials__container a:hover {
+    transform: scale(1.1); /* Enlarge the icons on hover */
+}
+
+/* If you're using FontAwesome icons, you might need to style the SVG specifically */
+.socials__container svg {
+    width: 30px; /* Adjust the width as needed */
+    height: auto; /* Keep the aspect ratio */
+}
+
+/* Ensure the icons are centered if they're larger than the default line height */
+.socials__container a {
+    display: inline-flex; /* Use flexbox for alignment */
+    align-items: center; /* Center align the items vertically */
+    justify-content: center; /* Center align the items horizontally */
+}
+
+.contact__details a {
+    color: #000;
+    text-decoration: none;
+}

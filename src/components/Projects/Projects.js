@@ -8,15 +8,16 @@ function Projects() {
   return (
     <div className='component__container'>
       <div className='projects__container'>
+        <h2>My Projects</h2>
         <div className="categories__container">
-          <div className='projects__heading'>My Projects</div>
+          {/* <div className='projects__heading'>My Projects</div>
           <div className='project__categories'>
             <div className='project_category'>AI</div>
             <div className='project_category'>Web Dev</div>
             <div className='project_category'>Simulation</div>
             <div className='project_category'>Computer Vision</div>
             <div className='project_category'>Robotics</div>
-          </div>
+          </div> */}
         </div>
         <div className='projects'>
           {Data.map((project, index) => (
