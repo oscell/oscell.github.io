@@ -39,14 +39,20 @@
 }
   
 @media (max-width: 1299px) {
-  .project-image img {
-    max-width: 50%; /* Reduce the image width to 80% for smaller screens */
-    height: auto; /* Height is set to auto to maintain aspect ratio */
-    border-radius: 0px; /* Keep rounded corners for smaller screens */
-    object-fit: cover; /* Ensures the image covers the area without being stretched */
-    margin: 0 auto; /* Centers the image horizontally */
-
+  .project-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container takes up the full height */
   }
+  
+  .project-image img {
+    max-height: 600px;
+    max-width: 90%;
+    height: auto;
+    display: block; /* Remove any default inline-block styles */
+  }
+  
 
   .project-information {
     width: 100%;

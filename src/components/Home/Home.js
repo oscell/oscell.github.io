@@ -16,7 +16,7 @@ function Home() {
 
 
       </div>
-      <a href={`${process.env.PUBLIC_URL}/CV/CV_Oscar.pdf`} download="Oscar_CV.pdf" className='download-cv'>
+      <a href={`${process.env.PUBLIC_URL}/CV/Oscar_CV_French.pdf`} download="Oscar_CV.pdf" className='download-cv'>
         Download CV
         </a>
 
