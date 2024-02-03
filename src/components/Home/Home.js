@@ -19,10 +19,10 @@ function Home() {
 
       </div>
       <div className='download-buttons-container'>
-      <a href={`${process.env.PUBLIC_URL}/CV/Oscar_CV_French.pdf`} download="Oscar_CV.pdf" className='download-cv'>
+      <a href={`${process.env.PUBLIC_URL}/CV/Oscar_CV_French.pdf`} download="Oscar_CV_Français.pdf" className='download-cv'>
       Télécharger le CV <img src={frenchIcon} alt="French Flag" className='flag-icon'/>
         </a>
-        <a href={`${process.env.PUBLIC_URL}/CV/Oscar_CV_English.pdf`} download="Oscar_CV.pdf" className='download-cv'>
+        <a href={`${process.env.PUBLIC_URL}/CV/Oscar_CV_English.pdf`} download="Oscar_CV_English.pdf" className='download-cv'>
         Download CV <img src={englishIcon} alt="British Flag" className='flag-icon'/>
         </a>
         </div>
