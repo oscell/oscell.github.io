@@ -51,17 +51,41 @@
 }
 
 .download-cv {
+  display: inline-flex; /* Make the link itself a flex container */
+  justify-content: space-between; /* Space between text and flag */
+  align-items: center; /* Center items vertically */
   text-decoration: none;
-  background-color: #007bff; /* You can change the button color */
+  background-color: #007bff; /* Button color */
   color: white;
   border-radius: 5px;
   cursor: pointer;
   padding: 10px 20px;
   border: none;
-  margin-top: 20px;
+  margin: 20px 10px 10px 0;
+  width: auto; /* Adjust width as necessary */
+  min-width: 160px; /* Ensure there's enough space for text and icon */
 }
 
 .download-cv:hover {
   background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.download-buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.flag-icon {
+  margin-left: auto; /* Push the icon as far right as possible */
+  width: 20px; /* Adjust icon size as needed */
+  height: 20px; /* Make height equal to width to maintain aspect ratio */
+  border: white 1px solid; /* Add a white border around the icon */
+  border-radius: 50%; /* Make the border rounded */
+  margin: 0 0 0 0px; /* Add some space between the icon and text */
+  display: flex; /* Ensure this element behaves as a flex container */
+  align-items: center; /* Center the content vertically */
+  justify-content: center; /* Center the content horizontally */
 }
 
