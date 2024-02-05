@@ -17,6 +17,7 @@ function ProjectPage() {
 
 
     return (
+        <div className='project__container'>
         <div className='project__wrapper'>
             <h1>{project.title}</h1>
             <div className='project-assets_container'>
@@ -60,6 +61,7 @@ function ProjectPage() {
                 {project.links.instagram && (
                  <p><a href={project.links.instagram} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faSquareInstagram} style={{ color: '#ee4963' }} /> Instagram</a></p>   
                 )}
+        </div>
             </div>
         </div>
 

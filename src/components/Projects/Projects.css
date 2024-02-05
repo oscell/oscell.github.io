@@ -1,70 +1,44 @@
-.projects__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px auto;
-    width: 100%;
-    max-width: 1100px; /* Example max-width, adjust as needed */
-}
-
-.categories__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.projects__heading {
-    border: 1px solid black;
-}
-
-.project__categories {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.project_category {
-    border: 1px solid black;
-    margin: 0 10px;
-    padding: 5px;
-    cursor: pointer;
-}
-
 .projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    width: 100%; /* Adjust the width as needed */
-    
-}
-
-.project_item {
-    margin: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 60px 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax for your preferred minimum size */
+    gap: 20px; /* Adjust the gap between items */
+    justify-items: center;
+  }
+  
+  .project_item {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
     background-size: cover;
-    background-position: top;
-    text-decoration: none;
-    color: inherit;
-    width: 150px; /* Fixed width */
-    height: 80px; /* Fixed height */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    overflow: hidden; /* Ensures no overflow of content */
-}
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Adjust shadow intensity and spread as needed */
+    border-radius: 10px; /* Adjust corner radius as desired */
+    transition: transform 0.3s; /* Adjust transition speed as desired */
+  }
+  
+  .project_item:hover {
+    transform: scale(1.05); /* Adjust scale factor as desired */
 
+  }
+  
+  
 
-.project_item:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+  .projects__container {
+    margin: 10px 100px 0 100px;
+  }
+  
+  .project_item::before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* This creates a square aspect ratio */
+  }
+  
+  .project__title {
+    position: absolute;
+    bottom: 0;
     color: white;
-    
-}
-
-.project__title{
-    font-weight: bold;
-}
-
-
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.555);
+  }
+  
