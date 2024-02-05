@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center; /* Center children vertically */
   align-items: center; /* Center children horizontally */
+
 }
 
 .home__image-container {
@@ -73,9 +74,43 @@
 .download-buttons-container {
   display: flex;
   justify-content: flex-end;
+  flex-direction: row;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px 20px 0px 20px;
+
 }
+
+/* Add this at the end of your existing CSS */
+@media screen and (max-width: 768px) {
+  .home__container {
+    flex-direction: column-reverse; /* Stack the image container on top */
+    align-items: center; /* Ensure content is centered */
+  }
+
+  .left__container, .home__image-container {
+    width: 100%; /* Make sure both containers take full width */
+    flex: none; /* Override any flex-grow settings to avoid stretching */
+  }
+
+  .download-buttons-container {
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: center; /* Center buttons vertically in the container */
+    align-items: center; /* Center buttons horizontally */
+    margin: 20px 0; /* Adjust margin for visual spacing */
+  }
+
+  .download-cv {
+    width: 90%; /* Adjust button width for smaller screens */
+    margin: 10px 0; /* Space out vertically stacked buttons */
+  }
+
+  .home__headline, .headline, .sub-headline {
+    align-items: center; /* Center the text for smaller screens */
+    text-align: center;
+  }
+}
+
+
 
 .flag-icon {
   margin-left: auto; /* Push the icon as far right as possible */
