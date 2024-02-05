@@ -24,6 +24,7 @@
 .home__image {
   width: 100%;
   height: auto;
+  max-width: 400px;
 }
 
 /* Additional styles for aligning the title and subtitle */
