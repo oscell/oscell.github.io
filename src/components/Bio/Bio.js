@@ -9,26 +9,15 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
+
+
+
+
 function Bio() {
   return (
     <div className='component__container'>
 
-      {/* <div className="Bio">
-      <h2>About Me</h2>
-      <p>
-        <div>
 
-          Did you know Tesla's marekting budget is $0? Yet they are one of the most well known brands in the world. I'm on a mission to undertand what it takes to be a product first company, delivering value to customers.
-          
-          <br></br>
-          I'm a developer with an entrepreneurial spirit and a passion for automation through software.
-
-
-        </div>
-
-
-      </p>
-    </div> */}
 
       <div id="contact__container">
         <div className='contact__details'>
@@ -71,3 +60,4 @@ function Bio() {
 }
 
 export default Bio;
+

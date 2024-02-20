@@ -18,50 +18,60 @@ function ProjectPage() {
 
     return (
         <div className='project__container'>
-        <div className='project__wrapper'>
-            <h1>{project.title}</h1>
-            <div className='project-assets_container'>
-                <div className='project-information'>
+            <div className='project__wrapper'>
+                <h1>{project.title}</h1>
+                <div className='project-assets_container'>
+                    <div className='project-information'>
 
-                    <h2>Objectives</h2>
-                    <ReactMarkdown>{project.objectives}</ReactMarkdown>
+                        <h2>Objectives</h2>
+                        <ReactMarkdown>{project.objectives}</ReactMarkdown>
 
-                    <h2>Outcomes</h2>
-                    <ReactMarkdown>{project.outcomes}</ReactMarkdown>
+                        <h2>Outcomes</h2>
+                        <ReactMarkdown>{project.outcomes}</ReactMarkdown>
 
-                    <h2>Technical Details</h2>
-                    <ReactMarkdown>{project.technicalDetails}</ReactMarkdown>
+                        <h2>Technical Details</h2>
+                        <ReactMarkdown>{project.technicalDetails}</ReactMarkdown>
+
+
+
+                    </div>
+                    
+                    <div className='project-image'>
+                        <img src={project.project_image} alt={project.name} />
+                        
+                        <div class='project-links-container'>
+
+
+                        <div className='project-links'>
+
+                            {project.links.github && (
+                                <p>
+
+                                    <a href={project.links.github} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} />  Github</a>
+                                </p>
+                            )}
+                            {project.links.liveDemo && (
+                                <p><a href={project.links.liveDemo} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faDesktop} /> Live Demo</a></p>
+                            )}
+                            {project.links.youtube && (
+
+                                <p>
+
+                                    <a href={project.links.youtube} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faYoutube} style={{ color: 'red' }} /> Video</a>
+                                </p>
+                            )}
+                            {project.links.website && (
+                                <p><a href={project.links.website} target='_blank' rel='noreferrer'>Website</a></p>
+                            )}
+                            {project.links.instagram && (
+                                <p><a href={project.links.instagram} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faSquareInstagram} style={{ color: '#ee4963' }} /> Instagram</a></p>
+                            )}
+                        </div>
+
+                        </div>
+                    </div>
                 </div>
-                <div className='project-image'>
-                    <img src={project.project_image} alt={project.name} />
-                </div>
-            </div>
-            <h2>Links</h2>
-            <div className='project-links'>
 
-                {project.links.github && (
-                    <p>
-
-                        <a href={project.links.github} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} />  Github</a>
-                    </p>
-                )}
-                {project.links.liveDemo && (
-                    <p><a href={project.links.liveDemo} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faDesktop} /> Live Demo</a></p>
-                )}
-                {project.links.youtube && (
-
-                    <p>
-
-                        <a href={project.links.youtube} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faYoutube} style={{ color: 'red' }} /> Youtube</a>
-                    </p>
-                )}
-                {project.links.website && (
-                    <p><a href={project.links.website} target='_blank' rel='noreferrer'>Website</a></p>
-                )}
-                {project.links.instagram && (
-                 <p><a href={project.links.instagram} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faSquareInstagram} style={{ color: '#ee4963' }} /> Instagram</a></p>   
-                )}
-        </div>
             </div>
         </div>
 

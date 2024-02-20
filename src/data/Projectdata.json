@@ -18,6 +18,20 @@
     },
     {
         "id": "2",
+        "title": "ICRA 2023 Competition: Manufacturing Robotics Challenge",
+        "objectives": "The goal of this project was to participate in the Manufacturing Robotics Challenge at ICRA 2023, which focused on using collaborative robots to construct the tallest Jenga tower possible. Participants were equipped with a collaborative robot, a gripper, and a 3D camera to achieve this objective.",
+        "outcomes": "- **2nd Place Achievement**: Our team secured second place in the competition by building one of the tallest Jenga towers.\n- **Innovative Use of Technology**: Successfully utilized the RGB and 3D cameras for detecting and avoiding red pieces and autonomously detecting the position and orientation of bricks, respectively.\n- **Artistic and Structural Ingenuity**: Earned additional points for the sculpture's artistic value and structural integrity, demonstrating both creative and technical skills.",
+        "technicalDetails": "- **Collaborative Robot Utilization**: Employed a collaborative robot with a specialized gripper for precise Jenga block manipulation.\n- **RGB Camera Integration**: Integrated an RGB camera for real-time detection and avoidance of red Jenga pieces.\n- **3D Camera Application**: Applied a 3D camera for autonomous detection of the position and orientation of Jenga blocks.\n- **Creative Sculpture Construction**: Demonstrated the ability to creatively use Jenga blocks for sculpture construction, enhancing the competition's artistic aspect.",
+        "project_thumbnail": "/projectImages/ICRA_Competition/Team_Photo.jpg",
+        "project_image": "/projectImages/ICRA_Competition/Team_Photo.jpg",
+        "categories": ["Robotics", "AI and Machine Learning", "Computer Vision", "Competitions"],
+        "Skills": ["Robot Programming", "3D Vision", "RGB Imaging", "Teamwork"],
+        "links": {
+            "github": "https://github.com/oscell/ICRA-2023-Competition"
+        }
+    },
+    {
+        "id": "3",
         "title": "Track-Record: Real-Time Face Tracking",
         "objectives": "The Track-Record project focuses on the development of a real-time face tracking system using a Raspberry Pi platform. The primary goal is to create a user-friendly, standalone product that can be easily utilized for face tracking purposes. This system is intended to be plug-and-play, simplifying the integration of face tracking technology to allow for more interactive presentations.",
         "outcomes": "- **Real-Time Face Tracking System**: Successfully built on the Raspberry Pi 3B platform, integrating a Pi Camera Module and servo motors for dynamic face detection and tracking.\n- **User Interface Development**: A graphical user interface (GUI) has been implemented, which communicates with the Raspberry Pi server, enhancing user interaction and control over the face tracking system.\n- **Standalone and User-Friendly**: The system is designed to be plug-and-play, offering ease of use and accessibility to users without extensive technical backgrounds.",
@@ -34,8 +48,27 @@
             "liveDemo":""
         }
     },
+    
+    
     {
         "id": "3",
+        "title": "ROS Chess Baxter: Autonomous Chess Playing with Baxter Robot",
+        "objectives": "This project aims to develop a ROS solution that enables the Baxter robot to autonomously play chess, including setting up the chessboard with at least 5 pieces and moving each piece through a sequence of valid chess moves. The solution utilizes ROS, Gazebo, RViz, and MoveIt for full implementation.",
+        "outcomes": "- **ROS Integration**: Successfully developed and integrated ROS packages and tutorials for Baxter.\n- **Chessboard Setup**: Automated the chessboard setup with minimal pieces.\n- **Chess Move Execution**: Programmed Baxter to execute a sequence of valid chess moves autonomously.\n- **Simulation and Visualization**: Utilized Gazebo and RViz for simulation, and MoveIt for motion planning.",
+        "technicalDetails": "- **ROS for Robotics Development**: Utilized the Robot Operating System (ROS) for managing Baxter's operations.\n- **Gazebo Simulation**: Leveraged Gazebo for simulating the chess environment.\n- **RViz Visualization**: Used RViz for visualizing Baxter's movements and strategies.\n- **MoveIt for Motion Planning**: Implemented MoveIt for planning and executing Baxter's chess moves.\n- **Broadcaster & Listener Nodes**: Developed broadcaster and listener nodes for piece position and orientation.",
+        "project_thumbnail": "/projectImages/ROSChessPackage/Cover.png",
+        "project_image": "/projectImages/ROSChessPackage/Cover.png",
+        "categories": ["Robotics", "Software Development", "Simulation", "AI and Machine Learning"],
+        "Skills": ["ROS", "Gazebo", "RViz", "MoveIt", "Python", "Robotics", "AI"],
+        "links": {
+            "github": "https://github.com/oscell/ROS-Chess-package",
+            "youtube": "https://www.youtube.com/watch?v=VA5hQQhipFk"
+        }
+    },
+    
+
+    {
+        "id": "5",
         "title": "Robocup",
         "objectives": "The RoboCup project aims to create a realistic MATLAB-based simulation of humanoid soccer using NAO6 robots. The main objective is to provide a detailed and accurate platform for strategizing and testing tactics in accordance with regulations of the RoboCup competition. This project includes ball dynamics, robot kinematics, game state analysis, and advanced path planning techniques.",
         "outcomes": "- **Humanoid Soccer Simulation**: Developed a comprehensive simulation of humanoid soccer using NAO6 robots, focusing on realistic physical dynamics of the ball and robots.\n- **Advanced Strategy Testing**: Enabled testing and analysis of soccer strategies and tactics, including dribbling, passing, and shooting.\n- **Path Planning Techniques**: Incorporated path planning algorithms like RRT (Rapidly-exploring Random Tree) and Target-Interceptor.\n- **Decision-Making System**: Developed a State flow-based decision-making system to dictate robot roles and game dynamics, adhering to court boundaries and rules.\n- **Simulation Validation and Visualization**: Provided extensive validation of the simulation through metrics and visualization, offering insights into different strategies.",
@@ -52,14 +85,11 @@
             "liveDemo":""
         }
     },
-
-
     {
-        "id": "4",
+        "id": "6",
         "title": "Algolia Search Integration for Restaurant Reservation Website",
         "objectives": "This project aimed to enhance the search experience on a restaurant reservation website by integrating Algolia's search service. Objectives included developing a responsive search UI with React, implementing as-you-type search functionality, custom filtering options for cuisine types, and prioritizing search results based on user location.",
         "outcomes": "- **Algolia Search with React**: Built a dynamic search interface using React, integrating Algolia's search API for real-time search capabilities.\n- **Custom Filtering & Geolocation**: Developed custom filters and geolocation to enhance search relevance.\n- **Data Manipulation and Indexing**: Processed and merged disparate datasets (JSON and CSV) for Algolia indexing, enabling comprehensive search functionalities.\n- **Responsive and User-Friendly Design**: Ensured a seamless user experience across various devices with a responsive design approach.",
-        "Embed": "",
         "technicalDetails": "- **React Framework**: Created an interactive user interface for the search functionality.\n- **Algolia JS Helper**: Integrated Algolia's JS Helper library for search features.\n- **Custom Components**: Created reusable React components for search results, filters, and other UI elements.\n- **Data Processing Scripts**: Developed scripts for merging and manipulating JSON and CSV data sources to create a unified Algolia search index.\n- **HTML5 Geolocation API**: Used the Geolocation API for detecting user location and customizing search results to show nearby restaurants first.",
         "project_thumbnail": "/projectImages/RestaurantSearch/mock-up.png",
         "project_image": "/projectImages/RestaurantSearch/mock-up.png",
@@ -70,5 +100,6 @@
           "liveDemo": "https://oscell.github.io/Restaurant-Search/"
         }
       }
-      
+    
+    
 ]

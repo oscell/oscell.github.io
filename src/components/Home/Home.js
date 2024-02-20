@@ -14,7 +14,7 @@ function Home() {
       <div className='left__container'>
       <div className="home__headline">
         <div className='headline'>Product Driven Developer</div>
-        <div className='sub-headline'><p>I have many skills but I have one goal.</p>Build build things that provide value.</div>
+        <div className='sub-headline'>I love developing automation.</div>
 
 
       </div>

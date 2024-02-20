@@ -32,3 +32,29 @@
     align-items: center;
     margin: 0 auto; 
   }
+
+.contact-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.email-and-phone, .header-socials{
+  margin: 0px 10px 0px 20px;
+}
+
+.header-social {
+  margin: 0px 10px;
+}
+
+.email-and-phone a, .contact{
+  text-decoration: none;
+  color: #333;
+}
+
+.header-social {
+  font-size: 24px; /* Adjust size as needed */
+  margin-right: 10px; /* Adds spacing between icons */
+  color: #333; /* Default icon color, can be adjusted as needed */
+}
