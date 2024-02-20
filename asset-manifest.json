@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.595fdfcf.css",
-    "main.js": "/static/js/main.89c19e43.js",
+    "main.js": "/static/js/main.782b8a8d.js",
     "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
     "static/media/HeadlineImage.png": "/static/media/HeadlineImage.93abde0ee4439535e296.png",
     "static/media/image.jpg": "/static/media/image.f7f0fe8fa65d4ec13be1.jpg",
@@ -9,11 +9,11 @@
     "static/media/icons8-grande-bretagne-circulaire-48.png": "/static/media/icons8-grande-bretagne-circulaire-48.020b6997b50ed87e2d9e.png",
     "index.html": "/index.html",
     "main.595fdfcf.css.map": "/static/css/main.595fdfcf.css.map",
-    "main.89c19e43.js.map": "/static/js/main.89c19e43.js.map",
+    "main.782b8a8d.js.map": "/static/js/main.782b8a8d.js.map",
     "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.595fdfcf.css",
-    "static/js/main.89c19e43.js"
+    "static/js/main.782b8a8d.js"
   ]
 }
