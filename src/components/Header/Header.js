@@ -33,6 +33,7 @@ function Header() {
               +33 618831149 | +44 7823791575 <FontAwesomeIcon icon={faPhone} />
             </div>
             </div>
+            
             <div className='header-socials'>
               <a href="https://www.linkedin.com/in/oscar-meunier-003655181/" target="_blank" rel="noreferrer" className='header-social'>
                 <FontAwesomeIcon icon={faLinkedin} style={{ color: '#2966b2' }} />

@@ -11,21 +11,8 @@
     border-radius: 50%; /* Circular profile picture */
   }
   
-  .ContactButton {
-    padding: 8px 18px;
-    background-color: #007bff; /* You can change the button color */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  .ContactButton:hover {
-    background-color: #0056b3; /* Darker shade for hover effect */
 
-  }
-  
+
   .header__container {
     max-width: 1100px;
     justify-content: center;
@@ -76,9 +63,10 @@
 /* Additional media query for smaller screens */
 @media (max-width: 768px) {
   .contact-details {
-    flex-direction: row; /* Keep them in a row */
+    flex-direction: column; /* Keep them in a row */
     justify-content: flex-end; /* Align items to the end of the container */
     align-items: center; /* Keep items vertically centered */
+    min-width: 295px;
   }
 
   .email-and-phone, .header-socials {
@@ -88,5 +76,17 @@
   /* Optional: Adjust padding inside .contact-details for smaller screens */
   .contact-details {
     padding: 5px 0px; /* Optionally, adjust padding */
+  }
+
+  .ProfilePicture {
+    width: 0px; /* Adjust size as needed */
+    height: 0px;
+    border-radius: 50%; /* Circular profile picture */
+  }
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
   }
 }
