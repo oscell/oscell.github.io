@@ -106,3 +106,23 @@
   }
 }
 
+.back-button{
+  
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #000;
+  background-color: rgb(255, 255, 255);
+}
+
+.back-button:hover{
+  background-color: #000;
+  color: aliceblue;
+}
+
+.project__footer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
