@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams,Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import Data from '../../data/Projectdata.json';
 import './ProjectPage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -13,6 +13,7 @@ import ReactMarkdown from 'react-markdown';
 function ProjectPage() {
     let { id } = useParams();
     const project = Data[id];
+
 
 
     return (
@@ -30,6 +31,10 @@ function ProjectPage() {
 
                         <h2>Technical Details</h2>
                         <ReactMarkdown>{project.technicalDetails}</ReactMarkdown>
+
+
+                        <h2> Skills Used</h2>
+                        <p>{project.Skills.join(', ')}</p>
 
 
 
@@ -76,9 +81,9 @@ function ProjectPage() {
             <div className='project__footer'>
                 <div className='project__footer-content'>
 
-                    <Link to='/' className='back-button'>Back to Projects</Link>         
+                    <Link to='/' className='back-button'>Back to Main Page</Link>
                 </div>
-                </div>
+            </div>
         </div>
 
     );
